@@ -1,8 +1,9 @@
-const GEMINI_API_KEY = "AQ.Ab8RN6IYpqbRtMMN6_u4a2eCduKxYjrXOwRrNh2ESY_1p9tDlg";
-const FOLDER_IN_ID = "1TJe16WSaAvw_3R1TglT7hw6PW0m2mYI0";
-const FOLDER_OUT_ID = "1nWufGhxWBmBsr7Iv-ybs8RgN4JJ_Xekm";
-const FOLDER_ARCHIVE_ID = "1gNY2LUjvnzpypsJj43XRqcz_Yrg_M0sY";
-const PROMPT_TEXT = "Analize this photo and resolve solution shown";
+const GEMINI_API_KEY = "API_KEY";
+const FOLDER_IN_ID = "tutaj wrzucasz id folderu opisane w readme ";
+const FOLDER_OUT_ID = "to samo co wyzej dla danego folderu ";
+const FOLDER_ARCHIVE_ID = "to samo co wyzej dla danego folderu ";
+const PROMPT_TEXT = "Analize this photo and resolve solution shown"; // to zostawiasz w spokoju chyba ze chcesz rozwinac jakos bardziej 
+// bo to jest prompt ktory dalbys ai 
 
 function processDriveImages() {
   const inFolder = DriveApp.getFolderById(FOLDER_IN_ID);
